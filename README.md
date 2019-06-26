@@ -1,4 +1,4 @@
-﻿
+
 ## Multiple / Single Choice Flatlist
 
 ### Advantages :
@@ -7,7 +7,7 @@
 - Supports all FlatList props
 - Supports both multiple mode and single mode
 
-## Version 1.0.8
+## Version 1.0.9
 
 - bug fixed
 
@@ -18,7 +18,9 @@
 ## 2. Usage
 
     import {MultiChoiceFlatList} from "react-native-multichoice-flatlist";
+
     ...
+
     <MultiChoiceFlatList
         ref={"mc"}
         data={[
@@ -30,19 +32,8 @@
         ]}
         renderItem={(item, index) => {
             return (
-                <View
-                    style={{
-                        borderWidth:1.2,
-                        borderRadius:15,
-                        borderColor:'#5d5d5d',
-                        paddingHorizontal:15,
-                        paddingVertical:4,
-                        marginHorizontal:10,
-                        marginVertical:3
-                    }}>
-                    <Text style={{
-                        color:'#5d5d5d'
-                    }}>
+                <View>
+                    <Text style={{backgroundColor:'green'}}>
                         {item.title}
                     </Text>
                 </View>
@@ -51,29 +42,17 @@
 
         renderSelectedItem={(item, index) => {
            return (
-               <View
-                   style={{
-                       borderWidth:1.2,
-                       borderRadius:15,
-                       borderColor:'green',
-                       backgroundColor:'#11c600bb',
-                       paddingHorizontal:15,
-                       paddingVertical:4,
-                       marginHorizontal:10,
-                       marginVertical:3
-                    }}>
-                    <Text style={{
-                        color:'white'
-                    }}>
+               <View>
+                    <Text>
                         {item.title}
-                        </Text>
+                    </Text>
                 </View>
             )
         }}
 
         onSelectedIndexesChange={(item, index, selected) => {
-            console.log("item ", item)
-            console.log("index ", index)
+            console.log("item ", item);
+            console.log("index ", index);
             console.log("is selected ", selected);
         }}
 
@@ -82,6 +61,8 @@
         keyExtractor={(item, index) => item.id}
 
     />
+
+    ...
 
 ## Props
 
