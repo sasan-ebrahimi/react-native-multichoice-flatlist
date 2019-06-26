@@ -1,8 +1,12 @@
 {
   "name": "react-native-multichoice-flatlist",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "React Native Multi/Single Choice Flatlist",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sasan-ebrahimi/react-native-multichoice-flatlist"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
