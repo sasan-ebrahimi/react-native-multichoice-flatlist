@@ -7,9 +7,9 @@
 - Supports all FlatList props
 - Supports both multiple mode and single mode
 
-## Version 1.0.7
+## Version 1.0.8
 
-- rerendering on data change bug fixed
+- bug fixed
 
 ## 1. Install
 
