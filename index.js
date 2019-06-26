@@ -1,0 +1,1 @@
+export MultiChoiceFlatList from './MultiChoiceFlatList';

@@ -1,0 +1,23 @@
+{
+  "name": "react-native-multichoice-flatlist",
+  "version": "1.0.7",
+  "description": "React Native Multi/Single Choice Flatlist",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native-multichoice-flatlist",
+    "react-native-singlechoice-flatlist",
+    "multichoice-flatlist",
+    "react-native-selectable-flatlist",
+    "react-native-selectable-list",
+    "singlechoice-flatlist",
+    "react-native-flatlist",
+    "flatlist",
+    "react-native-list",
+    "react-native"
+  ],
+  "author": "Sasan Ebrahimi",
+  "license": "ISC"
+}
